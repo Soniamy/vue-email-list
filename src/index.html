@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Generazione email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf8" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">Generazione Email</h1>
+    <div id="app">
+      <ul>
+        <li v-for="email in emails">{{email}}</li>
+      </ul>
+    </div>
+    <!--Importazione Vue-->
+    <script src="https://unpkg.com/vue@3"></script>
+    <!--Importazione Axios-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"
+      integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--Importazione Js-->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

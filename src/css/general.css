@@ -1,0 +1,12 @@
+html {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-wrapper {
+    width: 100%;
+    box-sizing: content-box;
+    max-width: var(--wrapper-width);
+    margin: 0 auto;
+    padding: 0 1em;
+}
