@@ -14,11 +14,18 @@
     />
   </head>
   <body>
-    <h1 class="title">Generazione Email</h1>
     <div id="app">
-      <ul>
-        <li v-for="email in emails">{{email}}</li>
-      </ul>
+         <h1 class="title">Generazione Email</h1>
+      <div class="emails"  v-if="emails.length == 10">
+        <ul>
+            <li v-for="email in emails">
+                {{email}}
+            </li>
+        </ul>
+
+      </div>
+
+       </div>
     </div>
     <!--Importazione Vue-->
     <script src="https://unpkg.com/vue@3"></script>
